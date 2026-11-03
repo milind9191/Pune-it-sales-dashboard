@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sahyadri Tech Services · Sales Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eceff2;--panel:#fff;--ink:#14202b;--mute:#5b6a77;--line:#d5dce2;--a:#0f766e;--a2:#b7c3cc;--soft:#e4f2f0;--bad:#b4232c;--good:#0f766e;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e161c;--panel:#16212a;--ink:#e8eef2;--mute:#9aa9b5;--line:#2a3944;--a:#3cc4b4;--a2:#4a5b68;--soft:#17332f;--bad:#ff7a84;--good:#3cc4b4;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e161c;--panel:#16212a;--ink:#e8eef2;--mute:#9aa9b5;--line:#2a3944;--a:#3cc4b4;--a2:#4a5b68;--soft:#17332f;--bad:#ff7a84;--good:#3cc4b4;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 "Inter Tight",system-ui,sans-serif}
+h1,h2,.num{font-family:"Bricolage Grotesque","Inter Tight",system-ui,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:16px;align-items:end;justify-content:space-between;padding:24px 28px 8px}
+h1{margin:0;font-size:28px;line-height:1.1;letter-spacing:-.02em}
+.sub{color:var(--mute);margin:4px 0 0;font-size:14px;max-width:62ch}
+.filters{display:flex;gap:10px;flex-wrap:wrap}
+select,button,input{font:inherit;color:var(--ink)}
+select{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:7px 10px}
+:focus-visible{outline:2px solid var(--a);outline-offset:2px}
+.wrap{display:grid;grid-template-columns:minmax(0,1fr) 390px;gap:20px;padding:12px 28px 32px;align-items:start}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);padding:0;overflow:hidden}
+.kpi{padding:16px 18px;border-right:1px solid var(--line)}.kpi:last-child{border:0}
+.kpi .l{color:var(--mute);font-size:13px}.kpi .num{font-size:26px;font-weight:700;letter-spacing:-.02em}
+.d{font-size:13px;font-weight:600}.up{color:var(--good)}.dn{color:var(--bad)}
+h2{font-size:17px;margin:0 0 10px;letter-spacing:-.01em}
+.stack{display:grid;gap:20px}
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.bar{display:grid;grid-template-columns:1fr auto;gap:2px 10px;width:100%;text-align:left;background:none;border:0;padding:6px 0;cursor:pointer;border-radius:4px}
+.bar .t{height:6px;background:var(--line);border-radius:3px;grid-column:1/3;overflow:hidden}
+.bar .t i{display:block;height:100%;background:var(--a);border-radius:3px}
+.bar.on .n{font-weight:600}.bar .v{color:var(--mute);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:right;padding:8px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}th{color:var(--mute);font-weight:500}
+svg text{fill:var(--mute);font:12px "Inter Tight",sans-serif}
+.legend{display:flex;gap:16px;font-size:13px;color:var(--mute);margin-bottom:4px}
+.legend b{display:inline-block;width:18px;height:3px;vertical-align:middle;margin-right:6px;border-radius:2px}
+ul.ins{margin:0;padding-left:18px;display:grid;gap:6px}
+.note p{margin:0 0 8px;max-width:72ch;color:var(--mute)}.note p b{color:var(--ink)}
+aside{position:sticky;top:12px;display:flex;flex-direction:column;height:calc(100vh - 24px);min-height:460px;max-height:780px;padding:0}
+aside .hd{padding:16px 18px 10px;border-bottom:1px solid var(--line)}
+aside .hd p{margin:2px 0 0;color:var(--mute);font-size:13px}
+#log{flex:1;overflow-y:auto;padding:14px 18px;display:flex;flex-direction:column;gap:12px}
+.m{max-width:96%;padding:9px 12px;border-radius:10px;line-height:1.45}
+.u{align-self:flex-end;background:var(--a);color:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .u{color:#06201c}}
+.a{background:var(--bg)}
+.trace{font:12px/1.4 ui-monospace,Menlo,monospace;color:var(--mute);margin:0 0 6px;padding-left:8px;border-left:2px solid var(--a);overflow-wrap:anywhere}
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding:0 18px 10px}
+.chips button{background:var(--soft);border:0;border-radius:99px;padding:5px 11px;font-size:13px;cursor:pointer}
+form{display:flex;gap:8px;padding:12px 18px;border-top:1px solid var(--line)}
+input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
+form button{background:var(--a);border:0;border-radius:6px;padding:8px 14px;font-weight:600;cursor:pointer;color:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) form button{color:#06201c}}
+@media (max-width:1000px){.wrap{grid-template-columns:1fr;padding:12px 16px}aside{position:static;height:600px}.cols{grid-template-columns:1fr}.kpis{grid-template-columns:1fr 1fr}.kpi{border-bottom:1px solid var(--line)}header{padding:20px 16px 8px}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Sahyadri Tech Services</h1>
+    <p class="sub">Pune-headquartered IT services firm with delivery centres in Hinjewadi and Kharadi. April to October of FY27 against the same months of FY26, in ₹ crore. Sample data.</p>
+  </div>
+  <div class="filters">
+    <select id="fr" aria-label="Client geography"></select>
+    <select id="fc" aria-label="Service line"></select>
+  </div>
+</header>
+<div class="wrap">
+  <main class="stack">
+    <section class="panel kpis" id="kpis"></section>
+    <section class="panel">
+      <h2>What the data says</h2>
+      <ul class="ins" id="ins"></ul>
+    </section>
+    <section class="panel">
+      <h2>Monthly revenue</h2>
+      <div class="legend"><span><b style="background:var(--a)"></b>FY27</span><span><b style="background:var(--a2)"></b>FY26</span></div>
+      <div class="scroll"><svg id="chart" viewBox="0 0 640 240" style="width:100%;min-width:480px" role="img" aria-label="Monthly revenue, FY27 versus FY26"></svg></div>
+    </section>
+    <div class="cols">
+      <section class="panel"><h2>Client geography</h2><div id="reg"></div></section>
+      <section class="panel"><h2>Service line</h2><div id="cat"></div></section>
+      <section class="panel"><h2>Top engagements</h2><div id="top"></div></section>
+    </div>
+    <section class="panel"><h2>Engagement detail</h2><div class="scroll"><table id="tbl"></table></div></section>
+    <section class="panel note">
+      <h2>About this project</h2>
+      <p><b>Business question.</b> Where is revenue growing, where is it at risk, and where should delivery leaders hire and allocate people next?</p>
+      <p><b>Approach.</b> Monthly billing data (person-months × rate) by client geography, service line and engagement, compared year on year using the Indian financial year (April to March). Anomalies are months that move more than 30% away from an engagement group’s usual year-over-year trend.</p>
+      <p><b>Tools.</b> PostgreSQL for the queries, Python and pandas for the data and analysis scripts, plain JavaScript for this dashboard.</p>
+    </section>
+  </main>
+  <aside class="panel">
+    <div class="hd"><h2 style="margin:0">Query assistant</h2><p>Answers use the current filters and show the SQL behind them.</p></div>
+    <div id="log" aria-live="polite"></div>
+    <div class="chips" id="chips"></div>
+    <form id="f"><input id="q" placeholder="e.g. Where is revenue at risk?" aria-label="Question"><button>Ask</button></form>
+  </aside>
+</div>
+<script>
+// Sample billing data (month, geography, engagement), generated with a fixed seed. See generate_data.py.
+let s=7;const rnd=()=>(s=(s*1664525+1013904223)%4294967296)/4294967296;
+const SL=["Application Development","Cloud & DevOps","Data & AI","Testing & QA","SAP & ERP"];
+// engagement, service line, rate (₹ lakh per person-month), base person-months
+const E=[["NorthStar Bank · Core banking","Application Development",2,110],["MediCore · Patient portal","Application Development",2,70],["AutoDrive · Plant data platform","Data & AI",3.2,45],["RetailRiver · Demand forecasting","Data & AI",3.2,35],["GlobalInsure · Cloud migration","Cloud & DevOps",2.6,60],["TelcoOne · Release automation","Cloud & DevOps",2.6,40],["SteelWorks · SAP S/4HANA","SAP & ERP",3,40],["FinEdge · Regression testing","Testing & QA",1.6,120]];
+const G=[["USA",1],["Europe",.7],["India",.5],["Middle East",.25]];
+const MN=["Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan","Feb","Mar"];
+const DATA=[];
+for(let t=0;t<19;t++){const y=t<12?26:27,m=t%12;
+ for(const [g,w] of G)for(const [p,c,rt,b] of E){
+  let u=b*w*(1+.07*Math.sin((m-9)/12*2*Math.PI))*(1+.012*t)*(.92+.16*rnd());
+  if(g==="Europe"&&c==="Cloud & DevOps"&&y===27&&m===4)u*=.5;   // client budget freeze in Europe
+  if(g==="India"&&c==="Data & AI"&&y===27&&m===2)u*=1.8;       // large go-live milestone in India
+  u=Math.round(u);const rate=rt*(g==="India"?.7:1);DATA.push({y,m,r:g,c,p,u,v:u*rate/100});}}
+// Helpers and query functions
+const fm=n=>"₹"+(n>=100?n.toFixed(0):n.toFixed(1))+" Cr";
+const pc=n=>(n>=0?"+":"")+(n*100).toFixed(1)+"%";
+const F={r:"All",c:"All"};
+const wh=()=>(F.r!=="All"?` AND geography='${F.r}'`:"")+(F.c!=="All"?` AND service_line='${F.c}'`:"");
+const rows=(o={})=>DATA.filter(d=>(F.r==="All"||d.r===F.r)&&(F.c==="All"||d.c===F.c)&&(o.y?d.y===o.y:1)&&(o.ytd?d.m<=6:1));
+const sum=(a,k="v")=>a.reduce((x,d)=>x+d[k],0);
+const group=(a,k)=>{const o={};a.forEach(d=>o[d[k]]=(o[d[k]]||0)+d.v);return Object.entries(o).sort((x,y)=>y[1]-x[1])};
+const T={
+ revenue:()=>{const c=sum(rows({y:27,ytd:1})),p=sum(rows({y:26,ytd:1}));return{c,p,g:c/p-1,u:sum(rows({y:27,ytd:1}),"u"),pu:sum(rows({y:26,ytd:1}),"u")}},
+ top:k=>group(rows({y:27,ytd:1}),k),
+ yoy:k=>{const c=Object.fromEntries(group(rows({y:27,ytd:1}),k)),p=Object.fromEntries(group(rows({y:26,ytd:1}),k));return Object.keys(c).map(x=>[x,c[x]/p[x]-1,c[x]]).sort((a,b)=>b[1]-a[1])},
+ monthly:y=>MN.map((_,m)=>sum(rows({y}).filter(d=>d.m===m))),
+ anomalies:()=>{const out=[];for(const [g] of G){if(F.r!=="All"&&F.r!==g)continue;for(const c of SL){if(F.c!=="All"&&F.c!==c)continue;
+  const a=DATA.filter(d=>d.r===g&&d.c===c),ser=[];for(let t=0;t<19;t++)ser.push(sum(a.filter(d=>d.y===(t<12?26:27)&&d.m===t%12)));
+  const ra=[];for(let m=0;m<7;m++)ra.push(Math.log(ser[12+m]/ser[m]));
+  const med=[...ra].sort((x,y)=>x-y)[3];
+  ra.forEach((r,m)=>{if(Math.abs(r-med)>.3)out.push({g,c,m,dev:r-med,yoy:Math.exp(r)-1})})}}return out.sort((a,b)=>Math.abs(b.dev)-Math.abs(a.dev))},
+ forecast:()=>{const g=T.revenue().g,l=T.monthly(26);return[7,8,9,10,11].map(m=>[MN[m],l[m]*(1+g)])}
+};
+// Question handling: keyword rules map a question to a query
+function answer(q){
+ const t=q.toLowerCase(),scope=(F.r==="All"?"all geographies":F.r)+", "+(F.c==="All"?"all service lines":F.c),tr=[];
+ const call=(n,sql)=>{tr.push("tool: "+n);tr.push("sql: "+sql)};
+ const base=`FROM billing WHERE fy='FY27' AND month_no<=7${wh()}`;
+ let ans;
+ if(/anomal|drop|dip|unusual|spike|why|surge|weird|at risk/.test(t)){
+  tr.push("plan: compare every month with the same month last year and flag deviations over 30% from the usual trend");
+  call("anomalies","SELECT geography, service_line, month, revenue_cr / LAG(revenue_cr,12) OVER (PARTITION BY geography, service_line ORDER BY month_seq) - 1 AS yoy FROM monthly_billing"+(wh()?" WHERE 1=1"+wh():""));
+  const a=T.anomalies();
+  ans=a.length?`I found ${a.length} unusual month${a.length>1?"s":""} in ${scope}:<br>`+a.slice(0,3).map(x=>`• <b>${x.g} · ${x.c}</b>, ${MN[x.m]}: ${pc(x.yoy)} year on year. ${x.yoy<0?"Check for client budget cuts, ramp-downs or delivery issues.":"Likely a large go-live, milestone billing or a new statement of work."}`).join("<br>"):`Nothing stands out in ${scope}. Every month tracks its usual year-over-year pattern.`}
+ else if(/forecast|predict|next|project|expect|rest of/.test(t)){
+  tr.push("plan: apply YTD growth to last year’s November to March");
+  call("forecast","SELECT month, revenue_cr * (1 + :ytd_growth) AS forecast_cr FROM monthly_billing WHERE fy='FY26' AND month_no>=8"+wh());
+  const g=T.revenue().g,f=T.forecast(),rest=f.reduce((x,y)=>x+y[1],0);
+  ans=`For ${scope}, YTD growth is ${pc(g)}. Applied to last year’s November to March, that adds about <b>${fm(rest)}</b>, so FY27 lands near <b>${fm(T.revenue().c+rest)}</b>. It is a seasonal-naive baseline, so treat it as a starting point.`}
+ else if(/concentr|depend|largest|biggest|share/.test(t)){
+  tr.push("plan: compute each engagement’s share of YTD revenue");
+  call("top","SELECT engagement, SUM(revenue_cr) / SUM(SUM(revenue_cr)) OVER () AS share "+base+" GROUP BY 1 ORDER BY 2 DESC");
+  const a=T.top("p"),tot=sum(rows({y:27,ytd:1}));
+  ans=`Largest exposure in ${scope}: <b>${a[0][0]}</b> at ${(a[0][1]/tot*100).toFixed(1)}% of revenue. Top three together: ${(a.slice(0,3).reduce((x,y)=>x+y[1],0)/tot*100).toFixed(1)}%. ${a[0][1]/tot>.15?"That is above a 15% single-engagement comfort level.":"That is a healthy spread."}`}
+ else if(/service|practice|line|capabilit|cloud|sap|testing/.test(t)){
+  tr.push("plan: compare service lines on YTD revenue and growth");
+  call("yoy","SELECT service_line, SUM(CASE WHEN fy='FY27' THEN revenue_cr END) / SUM(CASE WHEN fy='FY26' THEN revenue_cr END) - 1 AS yoy FROM billing WHERE month_no<=7"+wh()+" GROUP BY 1 ORDER BY 2 DESC");
+  const a=T.yoy("c");ans=`Fastest growing: <b>${a[0][0]}</b> (${pc(a[0][1])}).<br>`+a.map(x=>`• ${x[0]}: ${fm(x[2])}, ${pc(x[1])}`).join("<br>")}
+ else if(/geograph|region|market|usa|europe|india|middle east|where/.test(t)){
+  tr.push("plan: compare client geographies on YTD revenue and growth");
+  call("yoy","SELECT geography, SUM(CASE WHEN fy='FY27' THEN revenue_cr END) / SUM(CASE WHEN fy='FY26' THEN revenue_cr END) - 1 AS yoy FROM billing WHERE month_no<=7"+wh()+" GROUP BY 1 ORDER BY 2 DESC");
+  const a=T.yoy("r");ans=`Fastest growing: <b>${a[0][0]}</b> at ${pc(a[0][1])}. Slowest: <b>${a[a.length-1][0]}</b> at ${pc(a[a.length-1][1])}. Largest by revenue: ${[...a].sort((x,y)=>y[2]-x[2])[0][0]}.`}
+ else if(/engagement|client|account|project|top|best|deal/.test(t)){
+  tr.push("plan: rank engagements by YTD revenue");
+  call("top","SELECT engagement, SUM(revenue_cr) "+base+" GROUP BY 1 ORDER BY 2 DESC LIMIT 3");
+  const a=T.top("p");ans=`In ${scope}, the leaders are `+a.slice(0,3).map(x=>`<b>${x[0]}</b> (${fm(x[1])})`).join(", ")+`.`}
+ else if(/growth|trend|yoy|year|compare|vs|perform|doing/.test(t)){
+  tr.push("plan: compare FY27 YTD with FY26 same months");
+  call("revenue","SELECT fy, SUM(revenue_cr) FROM billing WHERE month_no<=7"+wh()+" GROUP BY fy");
+  const r=T.revenue();ans=`${scope}: ${fm(r.c)} so far in FY27 against ${fm(r.p)} last year, <b>${pc(r.g)}</b>.`}
+ else if(/revenue|sales|total|how much|person|billed|made/.test(t)){
+  tr.push("plan: total YTD revenue and billed person-months");
+  call("revenue","SELECT SUM(revenue_cr), SUM(person_months) "+base);
+  const r=T.revenue();ans=`${scope}: <b>${fm(r.c)}</b> revenue from ${r.u.toLocaleString("en-IN")} billed person-months.`}
+ else ans="I can answer questions about revenue, top engagements, geographies, service lines, growth, anomalies, concentration risk and a rest-of-year forecast. Try a suggestion below, or change the filters first and I’ll use them.";
+ return{tr,ans};
+}
+const log=document.getElementById("log");
+function say(cls,h){const d=document.createElement("div");d.className="m "+cls;d.innerHTML=h;log.appendChild(d);log.scrollTop=log.scrollHeight}
+function ask(q){if(!q.trim())return;say("u",q.replace(/</g,"&lt;"));const r=answer(q);
+ say("a",r.tr.map(x=>`<div class="trace">${x.replace(/</g,"&lt;")}</div>`).join("")+r.ans)}
+document.getElementById("f").onsubmit=e=>{e.preventDefault();const i=document.getElementById("q");ask(i.value);i.value=""};
+["Any anomalies?","Top engagements","Which service line is growing fastest?","Client concentration risk","Forecast the rest of the year"].forEach(x=>{const b=document.createElement("button");b.type="button";b.textContent=x;b.onclick=()=>ask(x);document.getElementById("chips").appendChild(b)});
+say("a","Ask about revenue, growth, anomalies or risk. Answers use the current filters and show the SQL behind them.");
+// Rendering
+const fr=document.getElementById("fr"),fc=document.getElementById("fc");
+["All",...G.map(r=>r[0])].forEach(x=>fr.add(new Option(x==="All"?"All geographies":x,x)));
+["All",...SL].forEach(x=>fc.add(new Option(x==="All"?"All service lines":x,x)));
+fr.onchange=()=>{F.r=fr.value;draw()};fc.onchange=()=>{F.c=fc.value;draw()};
+function bars(id,list,key){const mx=list[0][1];document.getElementById(id).innerHTML=list.map(([n,v])=>`<button class="bar ${key&&F[key]===n?"on":""}" data-k="${key||""}" data-n="${n}"><span class="n">${n}</span><span class="v">${fm(v)}</span><span class="t"><i style="width:${v/mx*100}%"></i></span></button>`).join("");
+ document.querySelectorAll(`#${id} .bar`).forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(!k)return;F[k]=F[k]===b.dataset.n?"All":b.dataset.n;(k==="r"?fr:fc).value=F[k];draw()})}
+function draw(){
+ const r=T.revenue(),ap=r.c*100/r.u,app=r.p*100/r.pu,rest=T.forecast().reduce((x,y)=>x+y[1],0),fy26=sum(rows({y:26}));
+ const k=(l,v,d)=>`<div class="kpi"><div class="l">${l}</div><div class="num">${v}</div><div class="d ${d>=0?"up":"dn"}">${pc(d)} vs FY26</div></div>`;
+ document.getElementById("kpis").innerHTML=k("Revenue, Apr to Oct",fm(r.c),r.g)+k("Billed person-months",r.u.toLocaleString("en-IN"),r.u/r.pu-1)+k("Average rate","₹"+ap.toFixed(2)+" L / PM",ap/app-1)+k("Projected FY27",fm(r.c+rest),(r.c+rest)/fy26-1);
+ const sl=T.yoy("c"),ge=T.yoy("r"),tp=T.top("p"),tot=sum(rows({y:27,ytd:1}));
+ document.getElementById("ins").innerHTML=
+  `<li><b>${sl[0][0]}</b> is the growth engine at ${pc(sl[0][1])} year on year. Prioritise hiring and bench allocation there.</li>`+
+  `<li><b>${ge[ge.length-1][0]}</b> is the slowest geography at ${pc(ge[ge.length-1][1])}. Review pipeline and renewals before the year-end quarter.</li>`+
+  `<li><b>${tp[0][0]}</b> brings ${(tp[0][1]/tot*100).toFixed(1)}% of revenue. ${tp[0][1]/tot>.15?"Above 15% from one engagement, so it deserves a risk review.":"The spread looks healthy."}</li>`;
+ const a=T.monthly(26),b=T.monthly(27).slice(0,7),mx=Math.max(...a,...b)*1.1,X=m=>64+m*(546/11),Y=v=>200-v/mx*180;
+ const path=arr=>arr.map((v,m)=>(m?"L":"M")+X(m).toFixed(1)+" "+Y(v).toFixed(1)).join("");
+ let g="";for(let i=0;i<=4;i++){const v=mx*i/4;g+=`<line x1="64" x2="610" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)"/><text x="58" y="${Y(v)+4}" text-anchor="end">${fm(v)}</text>`}
+ g+=MN.map((n,m)=>`<text x="${X(m)}" y="224" text-anchor="middle">${n}</text>`).join("");
+ g+=`<path d="${path(a)}" fill="none" stroke="var(--a2)" stroke-width="2.5"/><path d="${path(b)}" fill="none" stroke="var(--a)" stroke-width="3"/>`+b.map((v,m)=>`<circle cx="${X(m)}" cy="${Y(v)}" r="3.5" fill="var(--a)"><title>${MN[m]} FY27: ${fm(v)}</title></circle>`).join("");
+ document.getElementById("chart").innerHTML=g;
+ const cur=rows({y:27,ytd:1});
+ bars("reg",G.map(x=>[x[0],sum(DATA.filter(d=>d.y===27&&d.m<=6&&d.r===x[0]&&(F.c==="All"||d.c===F.c)))]).sort((x,y)=>y[1]-x[1]),"r");
+ bars("cat",SL.map(n=>[n,sum(DATA.filter(d=>d.y===27&&d.m<=6&&d.c===n&&(F.r==="All"||d.r===F.r)))]).sort((x,y)=>y[1]-x[1]),"c");
+ bars("top",tp.slice(0,5),"");
+ const y27=Object.fromEntries(group(cur,"p")),y26=Object.fromEntries(group(rows({y:26,ytd:1}),"p")),un=cur.reduce((o,d)=>(o[d.p]=(o[d.p]||0)+d.u,o),{});
+ document.getElementById("tbl").innerHTML="<tr><th>Engagement</th><th>Person-months</th><th>Revenue</th><th>vs FY26</th></tr>"+Object.keys(y27).sort((x,y)=>y27[y]-y27[x]).map(n=>{const gr=y27[n]/y26[n]-1;return`<tr><td>${n}</td><td>${un[n].toLocaleString("en-IN")}</td><td>${fm(y27[n])}</td><td class="${gr>=0?"up":"dn"}">${pc(gr)}</td></tr>`}).join("");
+}
+draw();
+</script>
+</body>
+</html>
