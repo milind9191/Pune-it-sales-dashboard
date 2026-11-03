@@ -50,10 +50,11 @@ For SQL, create a PostgreSQL database and run `psql -d yourdb -f sql/schema.sql`
 - Revenue is person-months times a rate in Rs lakh per person-month, with India billed at 70% of the offshore rate.
 - An anomaly is a month whose year-over-year change is more than 30% away from the median year-over-year change for that geography and service line.
 - The forecast applies year-to-date growth to last year's November to March. It is a simple seasonal baseline.
-- The query assistant in the dashboard is keyword-based. It maps a question to one of the queries and shows the SQL; it does not use a language model.
+- The query assistant in the dashboard is keyword-based. It maps a question to one of the queries and can show the equivalent SQL. The page calculates the answers in JavaScript and does not run the SQL; the queries in `sql/queries.sql` were checked against the same data. It does not use a language model, and it only knows the questions listed in its suggestion buttons and close variations of them.
 
 ## Limitations
 
 - Synthetic data, so the patterns are only as realistic as the generating rules.
 - Seven months of FY27 is a short window for growth rates and anomaly detection.
 - No costs or margins, only revenue.
+- Data is monthly, so there is no weekly or daily forecast.
