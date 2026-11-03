@@ -1,0 +1,609 @@
+fy,month_no,month_name,geography,service_line,engagement,person_months,revenue_cr
+FY26,1,Apr,USA,Application Development,NorthStar Bank · Core banking,113,2.26
+FY26,1,Apr,USA,Application Development,MediCore · Patient portal,80,1.6
+FY26,1,Apr,USA,Data & AI,AutoDrive · Plant data platform,49,1.568
+FY26,1,Apr,USA,Data & AI,RetailRiver · Demand forecasting,40,1.28
+FY26,1,Apr,USA,Cloud & DevOps,GlobalInsure · Cloud migration,60,1.56
+FY26,1,Apr,USA,Cloud & DevOps,TelcoOne · Release automation,45,1.17
+FY26,1,Apr,USA,SAP & ERP,SteelWorks · SAP S/4HANA,42,1.26
+FY26,1,Apr,USA,Testing & QA,FinEdge · Regression testing,119,1.904
+FY26,1,Apr,Europe,Application Development,NorthStar Bank · Core banking,77,1.54
+FY26,1,Apr,Europe,Application Development,MediCore · Patient portal,56,1.12
+FY26,1,Apr,Europe,Data & AI,AutoDrive · Plant data platform,36,1.152
+FY26,1,Apr,Europe,Data & AI,RetailRiver · Demand forecasting,26,0.832
+FY26,1,Apr,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,45,1.17
+FY26,1,Apr,Europe,Cloud & DevOps,TelcoOne · Release automation,30,0.78
+FY26,1,Apr,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,30,0.9
+FY26,1,Apr,Europe,Testing & QA,FinEdge · Regression testing,94,1.504
+FY26,1,Apr,India,Application Development,NorthStar Bank · Core banking,61,0.854
+FY26,1,Apr,India,Application Development,MediCore · Patient portal,37,0.518
+FY26,1,Apr,India,Data & AI,AutoDrive · Plant data platform,24,0.5376
+FY26,1,Apr,India,Data & AI,RetailRiver · Demand forecasting,20,0.448
+FY26,1,Apr,India,Cloud & DevOps,GlobalInsure · Cloud migration,31,0.5642
+FY26,1,Apr,India,Cloud & DevOps,TelcoOne · Release automation,21,0.3822
+FY26,1,Apr,India,SAP & ERP,SteelWorks · SAP S/4HANA,20,0.42
+FY26,1,Apr,India,Testing & QA,FinEdge · Regression testing,67,0.7504
+FY26,1,Apr,Middle East,Application Development,NorthStar Bank · Core banking,31,0.62
+FY26,1,Apr,Middle East,Application Development,MediCore · Patient portal,18,0.36
+FY26,1,Apr,Middle East,Data & AI,AutoDrive · Plant data platform,11,0.352
+FY26,1,Apr,Middle East,Data & AI,RetailRiver · Demand forecasting,10,0.32
+FY26,1,Apr,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,15,0.39
+FY26,1,Apr,Middle East,Cloud & DevOps,TelcoOne · Release automation,11,0.286
+FY26,1,Apr,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,11,0.33
+FY26,1,Apr,Middle East,Testing & QA,FinEdge · Regression testing,30,0.48
+FY26,2,May,USA,Application Development,NorthStar Bank · Core banking,111,2.22
+FY26,2,May,USA,Application Development,MediCore · Patient portal,77,1.54
+FY26,2,May,USA,Data & AI,AutoDrive · Plant data platform,50,1.6
+FY26,2,May,USA,Data & AI,RetailRiver · Demand forecasting,35,1.12
+FY26,2,May,USA,Cloud & DevOps,GlobalInsure · Cloud migration,65,1.69
+FY26,2,May,USA,Cloud & DevOps,TelcoOne · Release automation,46,1.196
+FY26,2,May,USA,SAP & ERP,SteelWorks · SAP S/4HANA,41,1.23
+FY26,2,May,USA,Testing & QA,FinEdge · Regression testing,131,2.096
+FY26,2,May,Europe,Application Development,NorthStar Bank · Core banking,81,1.62
+FY26,2,May,Europe,Application Development,MediCore · Patient portal,51,1.02
+FY26,2,May,Europe,Data & AI,AutoDrive · Plant data platform,34,1.088
+FY26,2,May,Europe,Data & AI,RetailRiver · Demand forecasting,27,0.864
+FY26,2,May,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,44,1.144
+FY26,2,May,Europe,Cloud & DevOps,TelcoOne · Release automation,28,0.728
+FY26,2,May,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,32,0.96
+FY26,2,May,Europe,Testing & QA,FinEdge · Regression testing,92,1.472
+FY26,2,May,India,Application Development,NorthStar Bank · Core banking,58,0.812
+FY26,2,May,India,Application Development,MediCore · Patient portal,41,0.574
+FY26,2,May,India,Data & AI,AutoDrive · Plant data platform,24,0.5376
+FY26,2,May,India,Data & AI,RetailRiver · Demand forecasting,18,0.4032
+FY26,2,May,India,Cloud & DevOps,GlobalInsure · Cloud migration,31,0.5642
+FY26,2,May,India,Cloud & DevOps,TelcoOne · Release automation,23,0.4186
+FY26,2,May,India,SAP & ERP,SteelWorks · SAP S/4HANA,22,0.462
+FY26,2,May,India,Testing & QA,FinEdge · Regression testing,64,0.7168
+FY26,2,May,Middle East,Application Development,NorthStar Bank · Core banking,28,0.56
+FY26,2,May,Middle East,Application Development,MediCore · Patient portal,19,0.38
+FY26,2,May,Middle East,Data & AI,AutoDrive · Plant data platform,11,0.352
+FY26,2,May,Middle East,Data & AI,RetailRiver · Demand forecasting,9,0.288
+FY26,2,May,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,17,0.442
+FY26,2,May,Middle East,Cloud & DevOps,TelcoOne · Release automation,11,0.286
+FY26,2,May,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,10,0.3
+FY26,2,May,Middle East,Testing & QA,FinEdge · Regression testing,32,0.512
+FY26,3,Jun,USA,Application Development,NorthStar Bank · Core banking,121,2.42
+FY26,3,Jun,USA,Application Development,MediCore · Patient portal,79,1.58
+FY26,3,Jun,USA,Data & AI,AutoDrive · Plant data platform,47,1.504
+FY26,3,Jun,USA,Data & AI,RetailRiver · Demand forecasting,37,1.184
+FY26,3,Jun,USA,Cloud & DevOps,GlobalInsure · Cloud migration,65,1.69
+FY26,3,Jun,USA,Cloud & DevOps,TelcoOne · Release automation,45,1.17
+FY26,3,Jun,USA,SAP & ERP,SteelWorks · SAP S/4HANA,42,1.26
+FY26,3,Jun,USA,Testing & QA,FinEdge · Regression testing,127,2.032
+FY26,3,Jun,Europe,Application Development,NorthStar Bank · Core banking,85,1.7
+FY26,3,Jun,Europe,Application Development,MediCore · Patient portal,56,1.12
+FY26,3,Jun,Europe,Data & AI,AutoDrive · Plant data platform,32,1.024
+FY26,3,Jun,Europe,Data & AI,RetailRiver · Demand forecasting,28,0.896
+FY26,3,Jun,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,42,1.092
+FY26,3,Jun,Europe,Cloud & DevOps,TelcoOne · Release automation,29,0.754
+FY26,3,Jun,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,32,0.96
+FY26,3,Jun,Europe,Testing & QA,FinEdge · Regression testing,92,1.472
+FY26,3,Jun,India,Application Development,NorthStar Bank · Core banking,56,0.784
+FY26,3,Jun,India,Application Development,MediCore · Patient portal,34,0.476
+FY26,3,Jun,India,Data & AI,AutoDrive · Plant data platform,23,0.5152
+FY26,3,Jun,India,Data & AI,RetailRiver · Demand forecasting,20,0.448
+FY26,3,Jun,India,Cloud & DevOps,GlobalInsure · Cloud migration,33,0.6006
+FY26,3,Jun,India,Cloud & DevOps,TelcoOne · Release automation,20,0.364
+FY26,3,Jun,India,SAP & ERP,SteelWorks · SAP S/4HANA,21,0.441
+FY26,3,Jun,India,Testing & QA,FinEdge · Regression testing,66,0.7392
+FY26,3,Jun,Middle East,Application Development,NorthStar Bank · Core banking,29,0.58
+FY26,3,Jun,Middle East,Application Development,MediCore · Patient portal,18,0.36
+FY26,3,Jun,Middle East,Data & AI,AutoDrive · Plant data platform,12,0.384
+FY26,3,Jun,Middle East,Data & AI,RetailRiver · Demand forecasting,9,0.288
+FY26,3,Jun,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,17,0.442
+FY26,3,Jun,Middle East,Cloud & DevOps,TelcoOne · Release automation,10,0.26
+FY26,3,Jun,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,11,0.33
+FY26,3,Jun,Middle East,Testing & QA,FinEdge · Regression testing,33,0.528
+FY26,4,Jul,USA,Application Development,NorthStar Bank · Core banking,113,2.26
+FY26,4,Jul,USA,Application Development,MediCore · Patient portal,70,1.4
+FY26,4,Jul,USA,Data & AI,AutoDrive · Plant data platform,47,1.504
+FY26,4,Jul,USA,Data & AI,RetailRiver · Demand forecasting,35,1.12
+FY26,4,Jul,USA,Cloud & DevOps,GlobalInsure · Cloud migration,58,1.508
+FY26,4,Jul,USA,Cloud & DevOps,TelcoOne · Release automation,41,1.066
+FY26,4,Jul,USA,SAP & ERP,SteelWorks · SAP S/4HANA,41,1.23
+FY26,4,Jul,USA,Testing & QA,FinEdge · Regression testing,129,2.064
+FY26,4,Jul,Europe,Application Development,NorthStar Bank · Core banking,84,1.68
+FY26,4,Jul,Europe,Application Development,MediCore · Patient portal,53,1.06
+FY26,4,Jul,Europe,Data & AI,AutoDrive · Plant data platform,31,0.992
+FY26,4,Jul,Europe,Data & AI,RetailRiver · Demand forecasting,26,0.832
+FY26,4,Jul,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,44,1.144
+FY26,4,Jul,Europe,Cloud & DevOps,TelcoOne · Release automation,27,0.702
+FY26,4,Jul,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,30,0.9
+FY26,4,Jul,Europe,Testing & QA,FinEdge · Regression testing,92,1.472
+FY26,4,Jul,India,Application Development,NorthStar Bank · Core banking,58,0.812
+FY26,4,Jul,India,Application Development,MediCore · Patient portal,38,0.532
+FY26,4,Jul,India,Data & AI,AutoDrive · Plant data platform,22,0.4928
+FY26,4,Jul,India,Data & AI,RetailRiver · Demand forecasting,19,0.4256
+FY26,4,Jul,India,Cloud & DevOps,GlobalInsure · Cloud migration,31,0.5642
+FY26,4,Jul,India,Cloud & DevOps,TelcoOne · Release automation,22,0.4004
+FY26,4,Jul,India,SAP & ERP,SteelWorks · SAP S/4HANA,22,0.462
+FY26,4,Jul,India,Testing & QA,FinEdge · Regression testing,59,0.6608
+FY26,4,Jul,Middle East,Application Development,NorthStar Bank · Core banking,27,0.54
+FY26,4,Jul,Middle East,Application Development,MediCore · Patient portal,19,0.38
+FY26,4,Jul,Middle East,Data & AI,AutoDrive · Plant data platform,12,0.384
+FY26,4,Jul,Middle East,Data & AI,RetailRiver · Demand forecasting,10,0.32
+FY26,4,Jul,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,17,0.442
+FY26,4,Jul,Middle East,Cloud & DevOps,TelcoOne · Release automation,10,0.26
+FY26,4,Jul,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,11,0.33
+FY26,4,Jul,Middle East,Testing & QA,FinEdge · Regression testing,30,0.48
+FY26,5,Aug,USA,Application Development,NorthStar Bank · Core banking,120,2.4
+FY26,5,Aug,USA,Application Development,MediCore · Patient portal,68,1.36
+FY26,5,Aug,USA,Data & AI,AutoDrive · Plant data platform,49,1.568
+FY26,5,Aug,USA,Data & AI,RetailRiver · Demand forecasting,37,1.184
+FY26,5,Aug,USA,Cloud & DevOps,GlobalInsure · Cloud migration,62,1.612
+FY26,5,Aug,USA,Cloud & DevOps,TelcoOne · Release automation,41,1.066
+FY26,5,Aug,USA,SAP & ERP,SteelWorks · SAP S/4HANA,40,1.2
+FY26,5,Aug,USA,Testing & QA,FinEdge · Regression testing,115,1.84
+FY26,5,Aug,Europe,Application Development,NorthStar Bank · Core banking,72,1.44
+FY26,5,Aug,Europe,Application Development,MediCore · Patient portal,46,0.92
+FY26,5,Aug,Europe,Data & AI,AutoDrive · Plant data platform,30,0.96
+FY26,5,Aug,Europe,Data & AI,RetailRiver · Demand forecasting,26,0.832
+FY26,5,Aug,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,40,1.04
+FY26,5,Aug,Europe,Cloud & DevOps,TelcoOne · Release automation,28,0.728
+FY26,5,Aug,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,28,0.84
+FY26,5,Aug,Europe,Testing & QA,FinEdge · Regression testing,92,1.472
+FY26,5,Aug,India,Application Development,NorthStar Bank · Core banking,53,0.742
+FY26,5,Aug,India,Application Development,MediCore · Patient portal,36,0.504
+FY26,5,Aug,India,Data & AI,AutoDrive · Plant data platform,23,0.5152
+FY26,5,Aug,India,Data & AI,RetailRiver · Demand forecasting,17,0.3808
+FY26,5,Aug,India,Cloud & DevOps,GlobalInsure · Cloud migration,31,0.5642
+FY26,5,Aug,India,Cloud & DevOps,TelcoOne · Release automation,19,0.3458
+FY26,5,Aug,India,SAP & ERP,SteelWorks · SAP S/4HANA,21,0.441
+FY26,5,Aug,India,Testing & QA,FinEdge · Regression testing,58,0.6496
+FY26,5,Aug,Middle East,Application Development,NorthStar Bank · Core banking,28,0.56
+FY26,5,Aug,Middle East,Application Development,MediCore · Patient portal,17,0.34
+FY26,5,Aug,Middle East,Data & AI,AutoDrive · Plant data platform,12,0.384
+FY26,5,Aug,Middle East,Data & AI,RetailRiver · Demand forecasting,9,0.288
+FY26,5,Aug,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,15,0.39
+FY26,5,Aug,Middle East,Cloud & DevOps,TelcoOne · Release automation,9,0.234
+FY26,5,Aug,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,11,0.33
+FY26,5,Aug,Middle East,Testing & QA,FinEdge · Regression testing,28,0.448
+FY26,6,Sep,USA,Application Development,NorthStar Bank · Core banking,111,2.22
+FY26,6,Sep,USA,Application Development,MediCore · Patient portal,66,1.32
+FY26,6,Sep,USA,Data & AI,AutoDrive · Plant data platform,47,1.504
+FY26,6,Sep,USA,Data & AI,RetailRiver · Demand forecasting,34,1.088
+FY26,6,Sep,USA,Cloud & DevOps,GlobalInsure · Cloud migration,61,1.586
+FY26,6,Sep,USA,Cloud & DevOps,TelcoOne · Release automation,40,1.04
+FY26,6,Sep,USA,SAP & ERP,SteelWorks · SAP S/4HANA,38,1.14
+FY26,6,Sep,USA,Testing & QA,FinEdge · Regression testing,116,1.856
+FY26,6,Sep,Europe,Application Development,NorthStar Bank · Core banking,79,1.58
+FY26,6,Sep,Europe,Application Development,MediCore · Patient portal,47,0.94
+FY26,6,Sep,Europe,Data & AI,AutoDrive · Plant data platform,29,0.928
+FY26,6,Sep,Europe,Data & AI,RetailRiver · Demand forecasting,26,0.832
+FY26,6,Sep,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,42,1.092
+FY26,6,Sep,Europe,Cloud & DevOps,TelcoOne · Release automation,28,0.728
+FY26,6,Sep,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,29,0.87
+FY26,6,Sep,Europe,Testing & QA,FinEdge · Regression testing,84,1.344
+FY26,6,Sep,India,Application Development,NorthStar Bank · Core banking,53,0.742
+FY26,6,Sep,India,Application Development,MediCore · Patient portal,33,0.462
+FY26,6,Sep,India,Data & AI,AutoDrive · Plant data platform,24,0.5376
+FY26,6,Sep,India,Data & AI,RetailRiver · Demand forecasting,18,0.4032
+FY26,6,Sep,India,Cloud & DevOps,GlobalInsure · Cloud migration,28,0.5096
+FY26,6,Sep,India,Cloud & DevOps,TelcoOne · Release automation,19,0.3458
+FY26,6,Sep,India,SAP & ERP,SteelWorks · SAP S/4HANA,20,0.42
+FY26,6,Sep,India,Testing & QA,FinEdge · Regression testing,56,0.6272
+FY26,6,Sep,Middle East,Application Development,NorthStar Bank · Core banking,27,0.54
+FY26,6,Sep,Middle East,Application Development,MediCore · Patient portal,19,0.38
+FY26,6,Sep,Middle East,Data & AI,AutoDrive · Plant data platform,11,0.352
+FY26,6,Sep,Middle East,Data & AI,RetailRiver · Demand forecasting,9,0.288
+FY26,6,Sep,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,14,0.364
+FY26,6,Sep,Middle East,Cloud & DevOps,TelcoOne · Release automation,11,0.286
+FY26,6,Sep,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,10,0.3
+FY26,6,Sep,Middle East,Testing & QA,FinEdge · Regression testing,30,0.48
+FY26,7,Oct,USA,Application Development,NorthStar Bank · Core banking,117,2.34
+FY26,7,Oct,USA,Application Development,MediCore · Patient portal,67,1.34
+FY26,7,Oct,USA,Data & AI,AutoDrive · Plant data platform,42,1.344
+FY26,7,Oct,USA,Data & AI,RetailRiver · Demand forecasting,37,1.184
+FY26,7,Oct,USA,Cloud & DevOps,GlobalInsure · Cloud migration,56,1.456
+FY26,7,Oct,USA,Cloud & DevOps,TelcoOne · Release automation,39,1.014
+FY26,7,Oct,USA,SAP & ERP,SteelWorks · SAP S/4HANA,37,1.11
+FY26,7,Oct,USA,Testing & QA,FinEdge · Regression testing,120,1.92
+FY26,7,Oct,Europe,Application Development,NorthStar Bank · Core banking,73,1.46
+FY26,7,Oct,Europe,Application Development,MediCore · Patient portal,50,1.0
+FY26,7,Oct,Europe,Data & AI,AutoDrive · Plant data platform,34,1.088
+FY26,7,Oct,Europe,Data & AI,RetailRiver · Demand forecasting,24,0.768
+FY26,7,Oct,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,39,1.014
+FY26,7,Oct,Europe,Cloud & DevOps,TelcoOne · Release automation,30,0.78
+FY26,7,Oct,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,28,0.84
+FY26,7,Oct,Europe,Testing & QA,FinEdge · Regression testing,77,1.232
+FY26,7,Oct,India,Application Development,NorthStar Bank · Core banking,55,0.77
+FY26,7,Oct,India,Application Development,MediCore · Patient portal,36,0.504
+FY26,7,Oct,India,Data & AI,AutoDrive · Plant data platform,22,0.4928
+FY26,7,Oct,India,Data & AI,RetailRiver · Demand forecasting,17,0.3808
+FY26,7,Oct,India,Cloud & DevOps,GlobalInsure · Cloud migration,30,0.546
+FY26,7,Oct,India,Cloud & DevOps,TelcoOne · Release automation,21,0.3822
+FY26,7,Oct,India,SAP & ERP,SteelWorks · SAP S/4HANA,21,0.441
+FY26,7,Oct,India,Testing & QA,FinEdge · Regression testing,61,0.6832
+FY26,7,Oct,Middle East,Application Development,NorthStar Bank · Core banking,26,0.52
+FY26,7,Oct,Middle East,Application Development,MediCore · Patient portal,16,0.32
+FY26,7,Oct,Middle East,Data & AI,AutoDrive · Plant data platform,11,0.352
+FY26,7,Oct,Middle East,Data & AI,RetailRiver · Demand forecasting,9,0.288
+FY26,7,Oct,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,15,0.39
+FY26,7,Oct,Middle East,Cloud & DevOps,TelcoOne · Release automation,10,0.26
+FY26,7,Oct,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,10,0.3
+FY26,7,Oct,Middle East,Testing & QA,FinEdge · Regression testing,31,0.496
+FY26,8,Nov,USA,Application Development,NorthStar Bank · Core banking,106,2.12
+FY26,8,Nov,USA,Application Development,MediCore · Patient portal,73,1.46
+FY26,8,Nov,USA,Data & AI,AutoDrive · Plant data platform,44,1.408
+FY26,8,Nov,USA,Data & AI,RetailRiver · Demand forecasting,33,1.056
+FY26,8,Nov,USA,Cloud & DevOps,GlobalInsure · Cloud migration,65,1.69
+FY26,8,Nov,USA,Cloud & DevOps,TelcoOne · Release automation,41,1.066
+FY26,8,Nov,USA,SAP & ERP,SteelWorks · SAP S/4HANA,40,1.2
+FY26,8,Nov,USA,Testing & QA,FinEdge · Regression testing,129,2.064
+FY26,8,Nov,Europe,Application Development,NorthStar Bank · Core banking,83,1.66
+FY26,8,Nov,Europe,Application Development,MediCore · Patient portal,50,1.0
+FY26,8,Nov,Europe,Data & AI,AutoDrive · Plant data platform,30,0.96
+FY26,8,Nov,Europe,Data & AI,RetailRiver · Demand forecasting,25,0.8
+FY26,8,Nov,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,45,1.17
+FY26,8,Nov,Europe,Cloud & DevOps,TelcoOne · Release automation,30,0.78
+FY26,8,Nov,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,30,0.9
+FY26,8,Nov,Europe,Testing & QA,FinEdge · Regression testing,83,1.328
+FY26,8,Nov,India,Application Development,NorthStar Bank · Core banking,60,0.84
+FY26,8,Nov,India,Application Development,MediCore · Patient portal,33,0.462
+FY26,8,Nov,India,Data & AI,AutoDrive · Plant data platform,25,0.56
+FY26,8,Nov,India,Data & AI,RetailRiver · Demand forecasting,17,0.3808
+FY26,8,Nov,India,Cloud & DevOps,GlobalInsure · Cloud migration,31,0.5642
+FY26,8,Nov,India,Cloud & DevOps,TelcoOne · Release automation,22,0.4004
+FY26,8,Nov,India,SAP & ERP,SteelWorks · SAP S/4HANA,20,0.42
+FY26,8,Nov,India,Testing & QA,FinEdge · Regression testing,63,0.7056
+FY26,8,Nov,Middle East,Application Development,NorthStar Bank · Core banking,29,0.58
+FY26,8,Nov,Middle East,Application Development,MediCore · Patient portal,19,0.38
+FY26,8,Nov,Middle East,Data & AI,AutoDrive · Plant data platform,11,0.352
+FY26,8,Nov,Middle East,Data & AI,RetailRiver · Demand forecasting,9,0.288
+FY26,8,Nov,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,15,0.39
+FY26,8,Nov,Middle East,Cloud & DevOps,TelcoOne · Release automation,10,0.26
+FY26,8,Nov,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,10,0.3
+FY26,8,Nov,Middle East,Testing & QA,FinEdge · Regression testing,32,0.512
+FY26,9,Dec,USA,Application Development,NorthStar Bank · Core banking,123,2.46
+FY26,9,Dec,USA,Application Development,MediCore · Patient portal,73,1.46
+FY26,9,Dec,USA,Data & AI,AutoDrive · Plant data platform,45,1.44
+FY26,9,Dec,USA,Data & AI,RetailRiver · Demand forecasting,38,1.216
+FY26,9,Dec,USA,Cloud & DevOps,GlobalInsure · Cloud migration,63,1.638
+FY26,9,Dec,USA,Cloud & DevOps,TelcoOne · Release automation,43,1.118
+FY26,9,Dec,USA,SAP & ERP,SteelWorks · SAP S/4HANA,44,1.32
+FY26,9,Dec,USA,Testing & QA,FinEdge · Regression testing,120,1.92
+FY26,9,Dec,Europe,Application Development,NorthStar Bank · Core banking,86,1.72
+FY26,9,Dec,Europe,Application Development,MediCore · Patient portal,54,1.08
+FY26,9,Dec,Europe,Data & AI,AutoDrive · Plant data platform,33,1.056
+FY26,9,Dec,Europe,Data & AI,RetailRiver · Demand forecasting,26,0.832
+FY26,9,Dec,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,43,1.118
+FY26,9,Dec,Europe,Cloud & DevOps,TelcoOne · Release automation,28,0.728
+FY26,9,Dec,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,29,0.87
+FY26,9,Dec,Europe,Testing & QA,FinEdge · Regression testing,88,1.408
+FY26,9,Dec,India,Application Development,NorthStar Bank · Core banking,56,0.784
+FY26,9,Dec,India,Application Development,MediCore · Patient portal,38,0.532
+FY26,9,Dec,India,Data & AI,AutoDrive · Plant data platform,22,0.4928
+FY26,9,Dec,India,Data & AI,RetailRiver · Demand forecasting,20,0.448
+FY26,9,Dec,India,Cloud & DevOps,GlobalInsure · Cloud migration,34,0.6188
+FY26,9,Dec,India,Cloud & DevOps,TelcoOne · Release automation,22,0.4004
+FY26,9,Dec,India,SAP & ERP,SteelWorks · SAP S/4HANA,20,0.42
+FY26,9,Dec,India,Testing & QA,FinEdge · Regression testing,65,0.728
+FY26,9,Dec,Middle East,Application Development,NorthStar Bank · Core banking,31,0.62
+FY26,9,Dec,Middle East,Application Development,MediCore · Patient portal,18,0.36
+FY26,9,Dec,Middle East,Data & AI,AutoDrive · Plant data platform,12,0.384
+FY26,9,Dec,Middle East,Data & AI,RetailRiver · Demand forecasting,9,0.288
+FY26,9,Dec,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,15,0.39
+FY26,9,Dec,Middle East,Cloud & DevOps,TelcoOne · Release automation,10,0.26
+FY26,9,Dec,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,11,0.33
+FY26,9,Dec,Middle East,Testing & QA,FinEdge · Regression testing,31,0.496
+FY26,10,Jan,USA,Application Development,NorthStar Bank · Core banking,112,2.24
+FY26,10,Jan,USA,Application Development,MediCore · Patient portal,77,1.54
+FY26,10,Jan,USA,Data & AI,AutoDrive · Plant data platform,49,1.568
+FY26,10,Jan,USA,Data & AI,RetailRiver · Demand forecasting,39,1.248
+FY26,10,Jan,USA,Cloud & DevOps,GlobalInsure · Cloud migration,70,1.82
+FY26,10,Jan,USA,Cloud & DevOps,TelcoOne · Release automation,43,1.118
+FY26,10,Jan,USA,SAP & ERP,SteelWorks · SAP S/4HANA,46,1.38
+FY26,10,Jan,USA,Testing & QA,FinEdge · Regression testing,124,1.984
+FY26,10,Jan,Europe,Application Development,NorthStar Bank · Core banking,86,1.72
+FY26,10,Jan,Europe,Application Development,MediCore · Patient portal,54,1.08
+FY26,10,Jan,Europe,Data & AI,AutoDrive · Plant data platform,35,1.12
+FY26,10,Jan,Europe,Data & AI,RetailRiver · Demand forecasting,26,0.832
+FY26,10,Jan,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,45,1.17
+FY26,10,Jan,Europe,Cloud & DevOps,TelcoOne · Release automation,31,0.806
+FY26,10,Jan,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,33,0.99
+FY26,10,Jan,Europe,Testing & QA,FinEdge · Regression testing,99,1.584
+FY26,10,Jan,India,Application Development,NorthStar Bank · Core banking,59,0.826
+FY26,10,Jan,India,Application Development,MediCore · Patient portal,38,0.532
+FY26,10,Jan,India,Data & AI,AutoDrive · Plant data platform,24,0.5376
+FY26,10,Jan,India,Data & AI,RetailRiver · Demand forecasting,19,0.4256
+FY26,10,Jan,India,Cloud & DevOps,GlobalInsure · Cloud migration,34,0.6188
+FY26,10,Jan,India,Cloud & DevOps,TelcoOne · Release automation,23,0.4186
+FY26,10,Jan,India,SAP & ERP,SteelWorks · SAP S/4HANA,23,0.483
+FY26,10,Jan,India,Testing & QA,FinEdge · Regression testing,69,0.7728
+FY26,10,Jan,Middle East,Application Development,NorthStar Bank · Core banking,33,0.66
+FY26,10,Jan,Middle East,Application Development,MediCore · Patient portal,18,0.36
+FY26,10,Jan,Middle East,Data & AI,AutoDrive · Plant data platform,13,0.416
+FY26,10,Jan,Middle East,Data & AI,RetailRiver · Demand forecasting,10,0.32
+FY26,10,Jan,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,16,0.416
+FY26,10,Jan,Middle East,Cloud & DevOps,TelcoOne · Release automation,11,0.286
+FY26,10,Jan,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,11,0.33
+FY26,10,Jan,Middle East,Testing & QA,FinEdge · Regression testing,36,0.576
+FY26,11,Feb,USA,Application Development,NorthStar Bank · Core banking,121,2.42
+FY26,11,Feb,USA,Application Development,MediCore · Patient portal,81,1.62
+FY26,11,Feb,USA,Data & AI,AutoDrive · Plant data platform,50,1.6
+FY26,11,Feb,USA,Data & AI,RetailRiver · Demand forecasting,40,1.28
+FY26,11,Feb,USA,Cloud & DevOps,GlobalInsure · Cloud migration,64,1.664
+FY26,11,Feb,USA,Cloud & DevOps,TelcoOne · Release automation,45,1.17
+FY26,11,Feb,USA,SAP & ERP,SteelWorks · SAP S/4HANA,45,1.35
+FY26,11,Feb,USA,Testing & QA,FinEdge · Regression testing,149,2.384
+FY26,11,Feb,Europe,Application Development,NorthStar Bank · Core banking,82,1.64
+FY26,11,Feb,Europe,Application Development,MediCore · Patient portal,55,1.1
+FY26,11,Feb,Europe,Data & AI,AutoDrive · Plant data platform,38,1.216
+FY26,11,Feb,Europe,Data & AI,RetailRiver · Demand forecasting,28,0.896
+FY26,11,Feb,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,48,1.248
+FY26,11,Feb,Europe,Cloud & DevOps,TelcoOne · Release automation,33,0.858
+FY26,11,Feb,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,34,1.02
+FY26,11,Feb,Europe,Testing & QA,FinEdge · Regression testing,93,1.488
+FY26,11,Feb,India,Application Development,NorthStar Bank · Core banking,65,0.91
+FY26,11,Feb,India,Application Development,MediCore · Patient portal,42,0.588
+FY26,11,Feb,India,Data & AI,AutoDrive · Plant data platform,26,0.5824
+FY26,11,Feb,India,Data & AI,RetailRiver · Demand forecasting,19,0.4256
+FY26,11,Feb,India,Cloud & DevOps,GlobalInsure · Cloud migration,33,0.6006
+FY26,11,Feb,India,Cloud & DevOps,TelcoOne · Release automation,25,0.455
+FY26,11,Feb,India,SAP & ERP,SteelWorks · SAP S/4HANA,24,0.504
+FY26,11,Feb,India,Testing & QA,FinEdge · Regression testing,65,0.728
+FY26,11,Feb,Middle East,Application Development,NorthStar Bank · Core banking,31,0.62
+FY26,11,Feb,Middle East,Application Development,MediCore · Patient portal,20,0.4
+FY26,11,Feb,Middle East,Data & AI,AutoDrive · Plant data platform,14,0.448
+FY26,11,Feb,Middle East,Data & AI,RetailRiver · Demand forecasting,11,0.352
+FY26,11,Feb,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,16,0.416
+FY26,11,Feb,Middle East,Cloud & DevOps,TelcoOne · Release automation,11,0.286
+FY26,11,Feb,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,11,0.33
+FY26,11,Feb,Middle East,Testing & QA,FinEdge · Regression testing,37,0.592
+FY26,12,Mar,USA,Application Development,NorthStar Bank · Core banking,127,2.54
+FY26,12,Mar,USA,Application Development,MediCore · Patient portal,82,1.64
+FY26,12,Mar,USA,Data & AI,AutoDrive · Plant data platform,53,1.696
+FY26,12,Mar,USA,Data & AI,RetailRiver · Demand forecasting,39,1.248
+FY26,12,Mar,USA,Cloud & DevOps,GlobalInsure · Cloud migration,73,1.898
+FY26,12,Mar,USA,Cloud & DevOps,TelcoOne · Release automation,49,1.274
+FY26,12,Mar,USA,SAP & ERP,SteelWorks · SAP S/4HANA,48,1.44
+FY26,12,Mar,USA,Testing & QA,FinEdge · Regression testing,155,2.48
+FY26,12,Mar,Europe,Application Development,NorthStar Bank · Core banking,91,1.82
+FY26,12,Mar,Europe,Application Development,MediCore · Patient portal,56,1.12
+FY26,12,Mar,Europe,Data & AI,AutoDrive · Plant data platform,37,1.184
+FY26,12,Mar,Europe,Data & AI,RetailRiver · Demand forecasting,27,0.864
+FY26,12,Mar,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,53,1.378
+FY26,12,Mar,Europe,Cloud & DevOps,TelcoOne · Release automation,36,0.936
+FY26,12,Mar,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,33,0.99
+FY26,12,Mar,Europe,Testing & QA,FinEdge · Regression testing,98,1.568
+FY26,12,Mar,India,Application Development,NorthStar Bank · Core banking,62,0.868
+FY26,12,Mar,India,Application Development,MediCore · Patient portal,45,0.63
+FY26,12,Mar,India,Data & AI,AutoDrive · Plant data platform,29,0.6496
+FY26,12,Mar,India,Data & AI,RetailRiver · Demand forecasting,20,0.448
+FY26,12,Mar,India,Cloud & DevOps,GlobalInsure · Cloud migration,36,0.6552
+FY26,12,Mar,India,Cloud & DevOps,TelcoOne · Release automation,25,0.455
+FY26,12,Mar,India,SAP & ERP,SteelWorks · SAP S/4HANA,23,0.483
+FY26,12,Mar,India,Testing & QA,FinEdge · Regression testing,72,0.8064
+FY26,12,Mar,Middle East,Application Development,NorthStar Bank · Core banking,33,0.66
+FY26,12,Mar,Middle East,Application Development,MediCore · Patient portal,21,0.42
+FY26,12,Mar,Middle East,Data & AI,AutoDrive · Plant data platform,15,0.48
+FY26,12,Mar,Middle East,Data & AI,RetailRiver · Demand forecasting,10,0.32
+FY26,12,Mar,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,17,0.442
+FY26,12,Mar,Middle East,Cloud & DevOps,TelcoOne · Release automation,12,0.312
+FY26,12,Mar,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,13,0.39
+FY26,12,Mar,Middle East,Testing & QA,FinEdge · Regression testing,34,0.544
+FY27,1,Apr,USA,Application Development,NorthStar Bank · Core banking,138,2.76
+FY27,1,Apr,USA,Application Development,MediCore · Patient portal,86,1.72
+FY27,1,Apr,USA,Data & AI,AutoDrive · Plant data platform,52,1.664
+FY27,1,Apr,USA,Data & AI,RetailRiver · Demand forecasting,43,1.376
+FY27,1,Apr,USA,Cloud & DevOps,GlobalInsure · Cloud migration,77,2.002
+FY27,1,Apr,USA,Cloud & DevOps,TelcoOne · Release automation,48,1.248
+FY27,1,Apr,USA,SAP & ERP,SteelWorks · SAP S/4HANA,47,1.41
+FY27,1,Apr,USA,Testing & QA,FinEdge · Regression testing,136,2.176
+FY27,1,Apr,Europe,Application Development,NorthStar Bank · Core banking,98,1.96
+FY27,1,Apr,Europe,Application Development,MediCore · Patient portal,61,1.22
+FY27,1,Apr,Europe,Data & AI,AutoDrive · Plant data platform,36,1.152
+FY27,1,Apr,Europe,Data & AI,RetailRiver · Demand forecasting,31,0.992
+FY27,1,Apr,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,55,1.43
+FY27,1,Apr,Europe,Cloud & DevOps,TelcoOne · Release automation,33,0.858
+FY27,1,Apr,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,36,1.08
+FY27,1,Apr,Europe,Testing & QA,FinEdge · Regression testing,101,1.616
+FY27,1,Apr,India,Application Development,NorthStar Bank · Core banking,65,0.91
+FY27,1,Apr,India,Application Development,MediCore · Patient portal,42,0.588
+FY27,1,Apr,India,Data & AI,AutoDrive · Plant data platform,28,0.6272
+FY27,1,Apr,India,Data & AI,RetailRiver · Demand forecasting,22,0.4928
+FY27,1,Apr,India,Cloud & DevOps,GlobalInsure · Cloud migration,38,0.6916
+FY27,1,Apr,India,Cloud & DevOps,TelcoOne · Release automation,23,0.4186
+FY27,1,Apr,India,SAP & ERP,SteelWorks · SAP S/4HANA,23,0.483
+FY27,1,Apr,India,Testing & QA,FinEdge · Regression testing,72,0.8064
+FY27,1,Apr,Middle East,Application Development,NorthStar Bank · Core banking,35,0.7
+FY27,1,Apr,Middle East,Application Development,MediCore · Patient portal,20,0.4
+FY27,1,Apr,Middle East,Data & AI,AutoDrive · Plant data platform,15,0.48
+FY27,1,Apr,Middle East,Data & AI,RetailRiver · Demand forecasting,11,0.352
+FY27,1,Apr,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,17,0.442
+FY27,1,Apr,Middle East,Cloud & DevOps,TelcoOne · Release automation,12,0.312
+FY27,1,Apr,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,12,0.36
+FY27,1,Apr,Middle East,Testing & QA,FinEdge · Regression testing,38,0.608
+FY27,2,May,USA,Application Development,NorthStar Bank · Core banking,130,2.6
+FY27,2,May,USA,Application Development,MediCore · Patient portal,86,1.72
+FY27,2,May,USA,Data & AI,AutoDrive · Plant data platform,54,1.728
+FY27,2,May,USA,Data & AI,RetailRiver · Demand forecasting,42,1.344
+FY27,2,May,USA,Cloud & DevOps,GlobalInsure · Cloud migration,76,1.976
+FY27,2,May,USA,Cloud & DevOps,TelcoOne · Release automation,50,1.3
+FY27,2,May,USA,SAP & ERP,SteelWorks · SAP S/4HANA,46,1.38
+FY27,2,May,USA,Testing & QA,FinEdge · Regression testing,154,2.464
+FY27,2,May,Europe,Application Development,NorthStar Bank · Core banking,88,1.76
+FY27,2,May,Europe,Application Development,MediCore · Patient portal,57,1.14
+FY27,2,May,Europe,Data & AI,AutoDrive · Plant data platform,38,1.216
+FY27,2,May,Europe,Data & AI,RetailRiver · Demand forecasting,28,0.896
+FY27,2,May,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,48,1.248
+FY27,2,May,Europe,Cloud & DevOps,TelcoOne · Release automation,32,0.832
+FY27,2,May,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,32,0.96
+FY27,2,May,Europe,Testing & QA,FinEdge · Regression testing,109,1.744
+FY27,2,May,India,Application Development,NorthStar Bank · Core banking,70,0.98
+FY27,2,May,India,Application Development,MediCore · Patient portal,41,0.574
+FY27,2,May,India,Data & AI,AutoDrive · Plant data platform,28,0.6272
+FY27,2,May,India,Data & AI,RetailRiver · Demand forecasting,23,0.5152
+FY27,2,May,India,Cloud & DevOps,GlobalInsure · Cloud migration,35,0.637
+FY27,2,May,India,Cloud & DevOps,TelcoOne · Release automation,23,0.4186
+FY27,2,May,India,SAP & ERP,SteelWorks · SAP S/4HANA,25,0.525
+FY27,2,May,India,Testing & QA,FinEdge · Regression testing,69,0.7728
+FY27,2,May,Middle East,Application Development,NorthStar Bank · Core banking,32,0.64
+FY27,2,May,Middle East,Application Development,MediCore · Patient portal,23,0.46
+FY27,2,May,Middle East,Data & AI,AutoDrive · Plant data platform,14,0.448
+FY27,2,May,Middle East,Data & AI,RetailRiver · Demand forecasting,10,0.32
+FY27,2,May,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,20,0.52
+FY27,2,May,Middle East,Cloud & DevOps,TelcoOne · Release automation,12,0.312
+FY27,2,May,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,13,0.39
+FY27,2,May,Middle East,Testing & QA,FinEdge · Regression testing,39,0.624
+FY27,3,Jun,USA,Application Development,NorthStar Bank · Core banking,129,2.58
+FY27,3,Jun,USA,Application Development,MediCore · Patient portal,87,1.74
+FY27,3,Jun,USA,Data & AI,AutoDrive · Plant data platform,55,1.76
+FY27,3,Jun,USA,Data & AI,RetailRiver · Demand forecasting,43,1.376
+FY27,3,Jun,USA,Cloud & DevOps,GlobalInsure · Cloud migration,76,1.976
+FY27,3,Jun,USA,Cloud & DevOps,TelcoOne · Release automation,52,1.352
+FY27,3,Jun,USA,SAP & ERP,SteelWorks · SAP S/4HANA,50,1.5
+FY27,3,Jun,USA,Testing & QA,FinEdge · Regression testing,151,2.416
+FY27,3,Jun,Europe,Application Development,NorthStar Bank · Core banking,92,1.84
+FY27,3,Jun,Europe,Application Development,MediCore · Patient portal,56,1.12
+FY27,3,Jun,Europe,Data & AI,AutoDrive · Plant data platform,35,1.12
+FY27,3,Jun,Europe,Data & AI,RetailRiver · Demand forecasting,28,0.896
+FY27,3,Jun,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,54,1.404
+FY27,3,Jun,Europe,Cloud & DevOps,TelcoOne · Release automation,36,0.936
+FY27,3,Jun,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,35,1.05
+FY27,3,Jun,Europe,Testing & QA,FinEdge · Regression testing,101,1.616
+FY27,3,Jun,India,Application Development,NorthStar Bank · Core banking,71,0.994
+FY27,3,Jun,India,Application Development,MediCore · Patient portal,43,0.602
+FY27,3,Jun,India,Data & AI,AutoDrive · Plant data platform,48,1.0752
+FY27,3,Jun,India,Data & AI,RetailRiver · Demand forecasting,36,0.8064
+FY27,3,Jun,India,Cloud & DevOps,GlobalInsure · Cloud migration,36,0.6552
+FY27,3,Jun,India,Cloud & DevOps,TelcoOne · Release automation,23,0.4186
+FY27,3,Jun,India,SAP & ERP,SteelWorks · SAP S/4HANA,25,0.525
+FY27,3,Jun,India,Testing & QA,FinEdge · Regression testing,76,0.8512
+FY27,3,Jun,Middle East,Application Development,NorthStar Bank · Core banking,36,0.72
+FY27,3,Jun,Middle East,Application Development,MediCore · Patient portal,23,0.46
+FY27,3,Jun,Middle East,Data & AI,AutoDrive · Plant data platform,15,0.48
+FY27,3,Jun,Middle East,Data & AI,RetailRiver · Demand forecasting,11,0.352
+FY27,3,Jun,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,18,0.468
+FY27,3,Jun,Middle East,Cloud & DevOps,TelcoOne · Release automation,12,0.312
+FY27,3,Jun,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,13,0.39
+FY27,3,Jun,Middle East,Testing & QA,FinEdge · Regression testing,34,0.544
+FY27,4,Jul,USA,Application Development,NorthStar Bank · Core banking,132,2.64
+FY27,4,Jul,USA,Application Development,MediCore · Patient portal,80,1.6
+FY27,4,Jul,USA,Data & AI,AutoDrive · Plant data platform,56,1.792
+FY27,4,Jul,USA,Data & AI,RetailRiver · Demand forecasting,39,1.248
+FY27,4,Jul,USA,Cloud & DevOps,GlobalInsure · Cloud migration,73,1.898
+FY27,4,Jul,USA,Cloud & DevOps,TelcoOne · Release automation,50,1.3
+FY27,4,Jul,USA,SAP & ERP,SteelWorks · SAP S/4HANA,46,1.38
+FY27,4,Jul,USA,Testing & QA,FinEdge · Regression testing,132,2.112
+FY27,4,Jul,Europe,Application Development,NorthStar Bank · Core banking,93,1.86
+FY27,4,Jul,Europe,Application Development,MediCore · Patient portal,62,1.24
+FY27,4,Jul,Europe,Data & AI,AutoDrive · Plant data platform,38,1.216
+FY27,4,Jul,Europe,Data & AI,RetailRiver · Demand forecasting,30,0.96
+FY27,4,Jul,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,49,1.274
+FY27,4,Jul,Europe,Cloud & DevOps,TelcoOne · Release automation,32,0.832
+FY27,4,Jul,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,34,1.02
+FY27,4,Jul,Europe,Testing & QA,FinEdge · Regression testing,93,1.488
+FY27,4,Jul,India,Application Development,NorthStar Bank · Core banking,64,0.896
+FY27,4,Jul,India,Application Development,MediCore · Patient portal,40,0.56
+FY27,4,Jul,India,Data & AI,AutoDrive · Plant data platform,25,0.56
+FY27,4,Jul,India,Data & AI,RetailRiver · Demand forecasting,20,0.448
+FY27,4,Jul,India,Cloud & DevOps,GlobalInsure · Cloud migration,34,0.6188
+FY27,4,Jul,India,Cloud & DevOps,TelcoOne · Release automation,23,0.4186
+FY27,4,Jul,India,SAP & ERP,SteelWorks · SAP S/4HANA,24,0.504
+FY27,4,Jul,India,Testing & QA,FinEdge · Regression testing,68,0.7616
+FY27,4,Jul,Middle East,Application Development,NorthStar Bank · Core banking,32,0.64
+FY27,4,Jul,Middle East,Application Development,MediCore · Patient portal,21,0.42
+FY27,4,Jul,Middle East,Data & AI,AutoDrive · Plant data platform,12,0.384
+FY27,4,Jul,Middle East,Data & AI,RetailRiver · Demand forecasting,10,0.32
+FY27,4,Jul,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,16,0.416
+FY27,4,Jul,Middle East,Cloud & DevOps,TelcoOne · Release automation,13,0.338
+FY27,4,Jul,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,12,0.36
+FY27,4,Jul,Middle East,Testing & QA,FinEdge · Regression testing,35,0.56
+FY27,5,Aug,USA,Application Development,NorthStar Bank · Core banking,123,2.46
+FY27,5,Aug,USA,Application Development,MediCore · Patient portal,81,1.62
+FY27,5,Aug,USA,Data & AI,AutoDrive · Plant data platform,54,1.728
+FY27,5,Aug,USA,Data & AI,RetailRiver · Demand forecasting,43,1.376
+FY27,5,Aug,USA,Cloud & DevOps,GlobalInsure · Cloud migration,68,1.768
+FY27,5,Aug,USA,Cloud & DevOps,TelcoOne · Release automation,48,1.248
+FY27,5,Aug,USA,SAP & ERP,SteelWorks · SAP S/4HANA,43,1.29
+FY27,5,Aug,USA,Testing & QA,FinEdge · Regression testing,144,2.304
+FY27,5,Aug,Europe,Application Development,NorthStar Bank · Core banking,91,1.82
+FY27,5,Aug,Europe,Application Development,MediCore · Patient portal,58,1.16
+FY27,5,Aug,Europe,Data & AI,AutoDrive · Plant data platform,35,1.12
+FY27,5,Aug,Europe,Data & AI,RetailRiver · Demand forecasting,28,0.896
+FY27,5,Aug,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,24,0.624
+FY27,5,Aug,Europe,Cloud & DevOps,TelcoOne · Release automation,15,0.39
+FY27,5,Aug,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,34,1.02
+FY27,5,Aug,Europe,Testing & QA,FinEdge · Regression testing,90,1.44
+FY27,5,Aug,India,Application Development,NorthStar Bank · Core banking,64,0.896
+FY27,5,Aug,India,Application Development,MediCore · Patient portal,39,0.546
+FY27,5,Aug,India,Data & AI,AutoDrive · Plant data platform,26,0.5824
+FY27,5,Aug,India,Data & AI,RetailRiver · Demand forecasting,21,0.4704
+FY27,5,Aug,India,Cloud & DevOps,GlobalInsure · Cloud migration,35,0.637
+FY27,5,Aug,India,Cloud & DevOps,TelcoOne · Release automation,21,0.3822
+FY27,5,Aug,India,SAP & ERP,SteelWorks · SAP S/4HANA,22,0.462
+FY27,5,Aug,India,Testing & QA,FinEdge · Regression testing,64,0.7168
+FY27,5,Aug,Middle East,Application Development,NorthStar Bank · Core banking,32,0.64
+FY27,5,Aug,Middle East,Application Development,MediCore · Patient portal,22,0.44
+FY27,5,Aug,Middle East,Data & AI,AutoDrive · Plant data platform,14,0.448
+FY27,5,Aug,Middle East,Data & AI,RetailRiver · Demand forecasting,10,0.32
+FY27,5,Aug,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,18,0.468
+FY27,5,Aug,Middle East,Cloud & DevOps,TelcoOne · Release automation,11,0.286
+FY27,5,Aug,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,11,0.33
+FY27,5,Aug,Middle East,Testing & QA,FinEdge · Regression testing,37,0.592
+FY27,6,Sep,USA,Application Development,NorthStar Bank · Core banking,117,2.34
+FY27,6,Sep,USA,Application Development,MediCore · Patient portal,78,1.56
+FY27,6,Sep,USA,Data & AI,AutoDrive · Plant data platform,52,1.664
+FY27,6,Sep,USA,Data & AI,RetailRiver · Demand forecasting,41,1.312
+FY27,6,Sep,USA,Cloud & DevOps,GlobalInsure · Cloud migration,69,1.794
+FY27,6,Sep,USA,Cloud & DevOps,TelcoOne · Release automation,47,1.222
+FY27,6,Sep,USA,SAP & ERP,SteelWorks · SAP S/4HANA,42,1.26
+FY27,6,Sep,USA,Testing & QA,FinEdge · Regression testing,136,2.176
+FY27,6,Sep,Europe,Application Development,NorthStar Bank · Core banking,85,1.7
+FY27,6,Sep,Europe,Application Development,MediCore · Patient portal,57,1.14
+FY27,6,Sep,Europe,Data & AI,AutoDrive · Plant data platform,37,1.184
+FY27,6,Sep,Europe,Data & AI,RetailRiver · Demand forecasting,28,0.896
+FY27,6,Sep,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,49,1.274
+FY27,6,Sep,Europe,Cloud & DevOps,TelcoOne · Release automation,30,0.78
+FY27,6,Sep,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,30,0.9
+FY27,6,Sep,Europe,Testing & QA,FinEdge · Regression testing,100,1.6
+FY27,6,Sep,India,Application Development,NorthStar Bank · Core banking,67,0.938
+FY27,6,Sep,India,Application Development,MediCore · Patient portal,38,0.532
+FY27,6,Sep,India,Data & AI,AutoDrive · Plant data platform,26,0.5824
+FY27,6,Sep,India,Data & AI,RetailRiver · Demand forecasting,19,0.4256
+FY27,6,Sep,India,Cloud & DevOps,GlobalInsure · Cloud migration,34,0.6188
+FY27,6,Sep,India,Cloud & DevOps,TelcoOne · Release automation,21,0.3822
+FY27,6,Sep,India,SAP & ERP,SteelWorks · SAP S/4HANA,24,0.504
+FY27,6,Sep,India,Testing & QA,FinEdge · Regression testing,69,0.7728
+FY27,6,Sep,Middle East,Application Development,NorthStar Bank · Core banking,31,0.62
+FY27,6,Sep,Middle East,Application Development,MediCore · Patient portal,19,0.38
+FY27,6,Sep,Middle East,Data & AI,AutoDrive · Plant data platform,14,0.448
+FY27,6,Sep,Middle East,Data & AI,RetailRiver · Demand forecasting,10,0.32
+FY27,6,Sep,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,16,0.416
+FY27,6,Sep,Middle East,Cloud & DevOps,TelcoOne · Release automation,11,0.286
+FY27,6,Sep,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,10,0.3
+FY27,6,Sep,Middle East,Testing & QA,FinEdge · Regression testing,36,0.576
+FY27,7,Oct,USA,Application Development,NorthStar Bank · Core banking,118,2.36
+FY27,7,Oct,USA,Application Development,MediCore · Patient portal,84,1.68
+FY27,7,Oct,USA,Data & AI,AutoDrive · Plant data platform,48,1.536
+FY27,7,Oct,USA,Data & AI,RetailRiver · Demand forecasting,40,1.28
+FY27,7,Oct,USA,Cloud & DevOps,GlobalInsure · Cloud migration,73,1.898
+FY27,7,Oct,USA,Cloud & DevOps,TelcoOne · Release automation,46,1.196
+FY27,7,Oct,USA,SAP & ERP,SteelWorks · SAP S/4HANA,48,1.44
+FY27,7,Oct,USA,Testing & QA,FinEdge · Regression testing,145,2.32
+FY27,7,Oct,Europe,Application Development,NorthStar Bank · Core banking,87,1.74
+FY27,7,Oct,Europe,Application Development,MediCore · Patient portal,55,1.1
+FY27,7,Oct,Europe,Data & AI,AutoDrive · Plant data platform,38,1.216
+FY27,7,Oct,Europe,Data & AI,RetailRiver · Demand forecasting,28,0.896
+FY27,7,Oct,Europe,Cloud & DevOps,GlobalInsure · Cloud migration,47,1.222
+FY27,7,Oct,Europe,Cloud & DevOps,TelcoOne · Release automation,30,0.78
+FY27,7,Oct,Europe,SAP & ERP,SteelWorks · SAP S/4HANA,30,0.9
+FY27,7,Oct,Europe,Testing & QA,FinEdge · Regression testing,90,1.44
+FY27,7,Oct,India,Application Development,NorthStar Bank · Core banking,64,0.896
+FY27,7,Oct,India,Application Development,MediCore · Patient portal,42,0.588
+FY27,7,Oct,India,Data & AI,AutoDrive · Plant data platform,25,0.56
+FY27,7,Oct,India,Data & AI,RetailRiver · Demand forecasting,18,0.4032
+FY27,7,Oct,India,Cloud & DevOps,GlobalInsure · Cloud migration,33,0.6006
+FY27,7,Oct,India,Cloud & DevOps,TelcoOne · Release automation,21,0.3822
+FY27,7,Oct,India,SAP & ERP,SteelWorks · SAP S/4HANA,22,0.462
+FY27,7,Oct,India,Testing & QA,FinEdge · Regression testing,64,0.7168
+FY27,7,Oct,Middle East,Application Development,NorthStar Bank · Core banking,30,0.6
+FY27,7,Oct,Middle East,Application Development,MediCore · Patient portal,21,0.42
+FY27,7,Oct,Middle East,Data & AI,AutoDrive · Plant data platform,12,0.384
+FY27,7,Oct,Middle East,Data & AI,RetailRiver · Demand forecasting,10,0.32
+FY27,7,Oct,Middle East,Cloud & DevOps,GlobalInsure · Cloud migration,18,0.468
+FY27,7,Oct,Middle East,Cloud & DevOps,TelcoOne · Release automation,11,0.286
+FY27,7,Oct,Middle East,SAP & ERP,SteelWorks · SAP S/4HANA,11,0.33
+FY27,7,Oct,Middle East,Testing & QA,FinEdge · Regression testing,36,0.576
